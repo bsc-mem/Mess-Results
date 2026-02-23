@@ -1,0 +1,33 @@
+
+ Performance counter stats for process id '1020361':
+
+   3994492145      cycles
+   8456451      instructions
+   3072000      accesses
+   2706138      rf45
+   4857      rf045
+
+       1.221116909 seconds time elapsed
+
+
+ Performance counter stats for process id '1020361':
+
+   2488399192      cycles
+   7584318      instructions
+   3072000      accesses
+   2696519      rf45
+   7779      rf045
+
+       0.772663993 seconds time elapsed
+
+
+ Performance counter stats for process id '1020361':
+
+   2476447816      cycles
+   7485449      instructions
+   3072000      accesses
+   2696031      rf45
+   6242      rf045
+
+       0.772733973 seconds time elapsed
+

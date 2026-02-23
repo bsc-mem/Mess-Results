@@ -1,0 +1,24 @@
+
+ Performance counter stats for system wide:
+
+S0           22                  2596534656      unc_upi_rxl_flits.all_data
+S0           22                  132178266      unc_upi_txl_flits.all_data
+
+       0.300000000 seconds time elapsed
+
+
+ Performance counter stats for system wide:
+
+S0           10                  2596435254      unc_upi_rxl_flits.all_data
+S0           10                  132482619      unc_upi_txl_flits.all_data
+
+       0.300000000 seconds time elapsed
+
+
+ Performance counter stats for system wide:
+
+S0           10                  2595940143      unc_upi_rxl_flits.all_data
+S0           10                  132121638      unc_upi_txl_flits.all_data
+
+       0.300000000 seconds time elapsed
+

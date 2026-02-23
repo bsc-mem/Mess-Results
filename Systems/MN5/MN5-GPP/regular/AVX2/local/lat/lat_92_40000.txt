@@ -1,0 +1,33 @@
+
+ Performance counter stats for process id '2112305':
+
+   1053231032      cycles
+   5574026      instructions
+   3072000      accesses
+   2878949      r2012
+   83124      r1012
+
+       0.352320265 seconds time elapsed
+
+
+ Performance counter stats for process id '2112305':
+
+   1053645317      cycles
+   5577957      instructions
+   3072000      accesses
+   2880329      r2012
+   121804      r1012
+
+       0.352463183 seconds time elapsed
+
+
+ Performance counter stats for process id '2112305':
+
+   1053229524      cycles
+   5753928      instructions
+   3072000      accesses
+   2878817      r2012
+   104322      r1012
+
+       0.352751291 seconds time elapsed
+

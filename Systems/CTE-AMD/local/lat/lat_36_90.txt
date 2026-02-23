@@ -1,0 +1,33 @@
+
+ Performance counter stats for process id '2032345':
+
+   2201222326      cycles
+   7294923      instructions
+   3072000      accesses
+   2694044      rf45
+   8910      rf045
+
+       0.689641239 seconds time elapsed
+
+
+ Performance counter stats for process id '2032345':
+
+   2198954885      cycles
+   10369600      instructions
+   3072000      accesses
+   2696528      rf45
+   8772      rf045
+
+       0.689711802 seconds time elapsed
+
+
+ Performance counter stats for process id '2032345':
+
+   2191563600      cycles
+   7540715      instructions
+   3072000      accesses
+   2691037      rf45
+   6802      rf045
+
+       0.687874289 seconds time elapsed
+

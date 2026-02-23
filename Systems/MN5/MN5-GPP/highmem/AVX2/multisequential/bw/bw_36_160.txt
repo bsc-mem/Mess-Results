@@ -1,0 +1,24 @@
+
+ Performance counter stats for system wide:
+
+S0           7                  238096502      unc_m_cas_count.rd
+S0           7                  125788668      unc_m_cas_count.wr
+
+       0.101095972 seconds time elapsed
+
+
+ Performance counter stats for system wide:
+
+S0           7                  239247521      unc_m_cas_count.rd
+S0           7                  127091821      unc_m_cas_count.wr
+
+       0.101140724 seconds time elapsed
+
+
+ Performance counter stats for system wide:
+
+S0           7                  236656476      unc_m_cas_count.rd
+S0           7                  124948175      unc_m_cas_count.wr
+
+       0.101094128 seconds time elapsed
+

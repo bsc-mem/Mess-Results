@@ -1,0 +1,24 @@
+
+ Performance counter stats for system wide:
+
+S0           8                  970083152      nvidia_scf_pmu/cmem_rd_data/
+S0           8                  10735301392      nvidia_scf_pmu/cmem_wr_total_bytes/
+
+       0.101165068 seconds time elapsed
+
+
+ Performance counter stats for system wide:
+
+S0           8                  966975552      nvidia_scf_pmu/cmem_rd_data/
+S0           8                  10662185712      nvidia_scf_pmu/cmem_wr_total_bytes/
+
+       0.101045456 seconds time elapsed
+
+
+ Performance counter stats for system wide:
+
+S0           8                  955356421      nvidia_scf_pmu/cmem_rd_data/
+S0           8                  10465207952      nvidia_scf_pmu/cmem_wr_total_bytes/
+
+       0.101035922 seconds time elapsed
+
