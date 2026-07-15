@@ -4,16 +4,18 @@
 
 | Model | µArch | Sockets | Cores / Socket | Frequency (GHz) | Type | Freq (MT/s) | Channels / Socket |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| Intel Xeon Platinum 8460Y+ | Sapphire Rapids | 2 | 40 | 2 | DDR5 | 4800 | 8 |
+| Intel Xeon Platinum 8460Y+ | Sapphire Rapids | 2 | 40: | 2 | DDR5 | 4800 | 8 |
 
 ## Memory Performance
 
 ### Local Memory
-| Memory Curve |
+
+| Curve |
 | --- |
-| ![Local multisequential memory curve](./local/processed/memory_curves.png) |
+| ![Local memory memory curve](./local/processed/memory_curves.png) |
 
 ### Remote Memory
-| Memory Curve |
+
+| Curve |
 | --- |
-| ![Remote multisequential memory curve](./remote/processed/memory_curves.png) |
+| ![Remote memory memory curve](./remote/processed/memory_curves.png) |

@@ -9,11 +9,13 @@
 ## Memory Performance
 
 ### Local Memory
-| Memory Curve |
+
+| Curve |
 | --- |
-| ![Local multisequential memory curve](./local/processed/memory_curves.png) |
+| ![Local memory memory curve](./local/processed/memory_curves.png) |
 
 ### Remote Memory
-| Memory Curve |
+
+| Curve |
 | --- |
-| ![Remote multisequential memory curve](./remote/processed/memory_curves.png) |
+| ![Remote memory memory curve](./remote/processed/memory_curves.png) |

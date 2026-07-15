@@ -9,6 +9,7 @@
 ## Memory Performance
 
 ### Local Memory
-| Memory Curve |
+
+| Curve |
 | --- |
-| ![Local multisequential memory curve](./local/processed/memory_curves.png) |
+| ![Local memory memory curve](./local/processed/memory_curves.png) |

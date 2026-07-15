@@ -11,4 +11,4 @@
 ### Local Memory
 | Memory Curve |
 | --- |
-| ![Local multisequential memory curve](./local/processed/memory_curves.png) |
+| ![Local memory memory curve](./local/processed/memory_curves.png) |

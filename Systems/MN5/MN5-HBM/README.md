@@ -8,7 +8,32 @@
 
 ## Memory Performance
 
-### Local Memory
-| Memory Curve |
+### Local Memory · Default
+
+| Curve |
 | --- |
-| ![Local multisequential memory curve](./local/processed/memory_curves.png) |
+| ![Local memory memory curve](./local/processed/memory_curves.png) |
+
+### Remote Memory · Default
+
+| Curve |
+| --- |
+| ![Remote memory memory curve](./remote/processed/memory_curves.png) |
+
+### DDR5
+
+| Curve |
+| --- |
+| ![DDR5 memory curve](./DDR5/processed/memory_curves.png) |
+
+### SNC · DDR5
+
+| Curve |
+| --- |
+| ![SNC DDR5 memory curve](./SNC/DDR5/processed/memory_curves.png) |
+
+### SNC · HBM
+
+| Curve |
+| --- |
+| ![SNC HBM memory curve](./SNC/HBM/processed/memory_curves.png) |

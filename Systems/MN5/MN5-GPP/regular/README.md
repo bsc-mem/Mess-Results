@@ -12,3 +12,7 @@
 
 - [AVX2](./AVX2/)
 - [AVX512](./AVX512/)
+- [SCALAR](./SCALAR/)
+- [SSE](./SSE/)
+
+Each ISA variant README contains its available local and remote memory curves.
