@@ -8,6 +8,6 @@ Processor: **MN5 HBM — Intel Xeon Max 9480**. Machine specs are documented in 
 
 ## Curves
 
-| Configuration | Configuration | Configuration |
-| :---: | :---: | :---: |
-| **SNC / DDR5**<br>[<img src="DDR5/processed/memory_curves.png" alt="MN5 HBM — Intel Xeon Max 9480 — SNC / DDR5" width="280">](DDR5/README.md) |  |  |
+**SNC / DDR5**
+
+[<img src="DDR5/processed/memory_curves.png" alt="MN5 HBM — Intel Xeon Max 9480 — SNC / DDR5" width="420">](DDR5/README.md)

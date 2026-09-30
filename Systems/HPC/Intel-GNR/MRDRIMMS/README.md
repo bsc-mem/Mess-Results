@@ -8,6 +8,6 @@ Processor: **Intel GNR — Xeon 6980P**. Machine specs are documented in the con
 
 ## Curves
 
-| Configuration | Configuration | Configuration |
-| :---: | :---: | :---: |
-| **MRDIMM / AVX2**<br>[<img src="AVX2/processed/memory_curves.png" alt="Intel GNR — Xeon 6980P — MRDIMM / AVX2" width="280">](AVX2/README.md) |  |  |
+**MRDIMM / AVX2**
+
+[<img src="AVX2/processed/memory_curves.png" alt="Intel GNR — Xeon 6980P — MRDIMM / AVX2" width="420">](AVX2/README.md)

@@ -21,6 +21,6 @@ Archived CPU frequencies come from the machine description.
 
 ## Curves
 
-| Configuration | Configuration | Configuration |
-| :---: | :---: | :---: |
-| **DDR / prefetch off**<br>[<img src="DDR/prefetch-off/processed/memory_curves.png" alt="Intel EMR — Xeon Platinum 8568CXL — DDR / prefetch off" width="280">](DDR/prefetch-off/README.md) | **DDR / prefetch on**<br>[<img src="DDR/prefetch-on/processed/memory_curves.png" alt="Intel EMR — Xeon Platinum 8568CXL — DDR / prefetch on" width="280">](DDR/prefetch-on/README.md) |  |
+| DDR / prefetch off | DDR / prefetch on |
+| :---: | :---: |
+| [<img src="DDR/prefetch-off/processed/memory_curves.png" alt="Intel EMR — Xeon Platinum 8568CXL — DDR / prefetch off" width="280">](DDR/prefetch-off/README.md) | [<img src="DDR/prefetch-on/processed/memory_curves.png" alt="Intel EMR — Xeon Platinum 8568CXL — DDR / prefetch on" width="280">](DDR/prefetch-on/README.md) |

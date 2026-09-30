@@ -21,6 +21,6 @@ Archived CPU frequencies come from the machine description.
 
 ## Curves
 
-| Configuration | Configuration | Configuration |
-| :---: | :---: | :---: |
-| **DDR5**<br>[<img src="Intel-Xeon-Max-9462/DDR5/processed/memory_curves.png" alt="Jülich — Intel Xeon Max 9462 — DDR5" width="280">](Intel-Xeon-Max-9462/DDR5/README.md) | **HBM**<br>[<img src="Intel-Xeon-Max-9462/HBM/processed/memory_curves.png" alt="Jülich — Intel Xeon Max 9462 — HBM" width="280">](Intel-Xeon-Max-9462/HBM/README.md) |  |
+| DDR5 | HBM |
+| :---: | :---: |
+| [<img src="Intel-Xeon-Max-9462/DDR5/processed/memory_curves.png" alt="Jülich — Intel Xeon Max 9462 — DDR5" width="280">](Intel-Xeon-Max-9462/DDR5/README.md) | [<img src="Intel-Xeon-Max-9462/HBM/processed/memory_curves.png" alt="Jülich — Intel Xeon Max 9462 — HBM" width="280">](Intel-Xeon-Max-9462/HBM/README.md) |

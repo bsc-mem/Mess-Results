@@ -23,6 +23,6 @@ Archived CPU frequencies come from the machine description.
 
 ## Curves
 
-| Configuration | Configuration | Configuration |
+| DDR5 | SNC / DDR5 | HBM |
 | :---: | :---: | :---: |
-| **DDR5**<br>[<img src="DDR5/processed/memory_curves.png" alt="MN5 HBM — Intel Xeon Max 9480 — DDR5" width="280">](DDR5/README.md) | **SNC / DDR5**<br>[<img src="SNC/DDR5/processed/memory_curves.png" alt="MN5 HBM — Intel Xeon Max 9480 — SNC / DDR5" width="280">](SNC/DDR5/README.md) | **HBM**<br>[<img src="HBM/processed/memory_curves.png" alt="MN5 HBM — Intel Xeon Max 9480 — HBM" width="280">](HBM/README.md) |
+| [<img src="DDR5/processed/memory_curves.png" alt="MN5 HBM — Intel Xeon Max 9480 — DDR5" width="280">](DDR5/README.md) | [<img src="SNC/DDR5/processed/memory_curves.png" alt="MN5 HBM — Intel Xeon Max 9480 — SNC / DDR5" width="280">](SNC/DDR5/README.md) | [<img src="HBM/processed/memory_curves.png" alt="MN5 HBM — Intel Xeon Max 9480 — HBM" width="280">](HBM/README.md) |

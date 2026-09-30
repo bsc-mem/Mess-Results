@@ -8,6 +8,6 @@ Processor: **AMD Ryzen 7 5700X3D**. Machine specs are documented in the configur
 
 ## Curves
 
-| Configuration | Configuration | Configuration |
-| :---: | :---: | :---: |
-| **Default**<br>[<img src="Ryzen-7-5700X3D/processed/memory_curves.png" alt="AMD Ryzen 7 5700X3D — Default" width="280">](Ryzen-7-5700X3D/README.md) |  |  |
+**Default**
+
+[<img src="Ryzen-7-5700X3D/processed/memory_curves.png" alt="AMD Ryzen 7 5700X3D — Default" width="420">](Ryzen-7-5700X3D/README.md)

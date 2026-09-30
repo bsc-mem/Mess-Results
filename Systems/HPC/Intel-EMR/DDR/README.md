@@ -9,6 +9,6 @@ Processor: **Intel EMR — Xeon Platinum 8568CXL**. Machine specs are documented
 
 ## Curves
 
-| Configuration | Configuration | Configuration |
-| :---: | :---: | :---: |
-| **DDR / prefetch off**<br>[<img src="prefetch-off/processed/memory_curves.png" alt="Intel EMR — Xeon Platinum 8568CXL — DDR / prefetch off" width="280">](prefetch-off/README.md) | **DDR / prefetch on**<br>[<img src="prefetch-on/processed/memory_curves.png" alt="Intel EMR — Xeon Platinum 8568CXL — DDR / prefetch on" width="280">](prefetch-on/README.md) |  |
+| DDR / prefetch off | DDR / prefetch on |
+| :---: | :---: |
+| [<img src="prefetch-off/processed/memory_curves.png" alt="Intel EMR — Xeon Platinum 8568CXL — DDR / prefetch off" width="280">](prefetch-off/README.md) | [<img src="prefetch-on/processed/memory_curves.png" alt="Intel EMR — Xeon Platinum 8568CXL — DDR / prefetch on" width="280">](prefetch-on/README.md) |

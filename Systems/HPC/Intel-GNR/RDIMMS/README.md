@@ -9,6 +9,6 @@ Processor: **Intel GNR — Xeon 6980P**. Machine specs are documented in the con
 
 ## Curves
 
-| Configuration | Configuration | Configuration |
-| :---: | :---: | :---: |
-| **RDIMM / AVX2**<br>[<img src="AVX2/processed/memory_curves.png" alt="Intel GNR — Xeon 6980P — RDIMM / AVX2" width="280">](AVX2/README.md) | **RDIMM / AVX512**<br>[<img src="AVX512/processed/memory_curves.png" alt="Intel GNR — Xeon 6980P — RDIMM / AVX512" width="280">](AVX512/README.md) |  |
+| RDIMM / AVX2 | RDIMM / AVX512 |
+| :---: | :---: |
+| [<img src="AVX2/processed/memory_curves.png" alt="Intel GNR — Xeon 6980P — RDIMM / AVX2" width="280">](AVX2/README.md) | [<img src="AVX512/processed/memory_curves.png" alt="Intel GNR — Xeon 6980P — RDIMM / AVX512" width="280">](AVX512/README.md) |

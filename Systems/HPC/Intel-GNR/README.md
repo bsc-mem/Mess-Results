@@ -22,6 +22,6 @@ Archived CPU frequencies come from the machine description.
 
 ## Curves
 
-| Configuration | Configuration | Configuration |
+| MRDIMM / AVX2 | RDIMM / AVX2 | RDIMM / AVX512 |
 | :---: | :---: | :---: |
-| **MRDIMM / AVX2**<br>[<img src="MRDRIMMS/AVX2/processed/memory_curves.png" alt="Intel GNR — Xeon 6980P — MRDIMM / AVX2" width="280">](MRDRIMMS/AVX2/README.md) | **RDIMM / AVX2**<br>[<img src="RDIMMS/AVX2/processed/memory_curves.png" alt="Intel GNR — Xeon 6980P — RDIMM / AVX2" width="280">](RDIMMS/AVX2/README.md) | **RDIMM / AVX512**<br>[<img src="RDIMMS/AVX512/processed/memory_curves.png" alt="Intel GNR — Xeon 6980P — RDIMM / AVX512" width="280">](RDIMMS/AVX512/README.md) |
+| [<img src="MRDRIMMS/AVX2/processed/memory_curves.png" alt="Intel GNR — Xeon 6980P — MRDIMM / AVX2" width="280">](MRDRIMMS/AVX2/README.md) | [<img src="RDIMMS/AVX2/processed/memory_curves.png" alt="Intel GNR — Xeon 6980P — RDIMM / AVX2" width="280">](RDIMMS/AVX2/README.md) | [<img src="RDIMMS/AVX512/processed/memory_curves.png" alt="Intel GNR — Xeon 6980P — RDIMM / AVX512" width="280">](RDIMMS/AVX512/README.md) |

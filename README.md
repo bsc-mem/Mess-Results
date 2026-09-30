@@ -50,9 +50,9 @@ Results measured with [Mess](https://github.com/bsc-mem/Mess). Click a curve for
 
 #### AMD Ryzen 7 5700X3D
 
-| Configuration | Configuration | Configuration |
-| :---: | :---: | :---: |
-| **3200 MT/s**<br>[<img src="Systems/Consumer/AMD/Ryzen-7-5700X3D/processed/memory_curves.png" alt="AMD Ryzen 7 5700X3D — 3200 MT/s" width="280">](Systems/Consumer/AMD/Ryzen-7-5700X3D/README.md) |  |  |
+**3200 MT/s**
+
+[<img src="Systems/Consumer/AMD/Ryzen-7-5700X3D/processed/memory_curves.png" alt="AMD Ryzen 7 5700X3D — 3200 MT/s" width="420">](Systems/Consumer/AMD/Ryzen-7-5700X3D/README.md)
 
 ### Apple Silicon
 
@@ -60,17 +60,17 @@ Results measured with [Mess](https://github.com/bsc-mem/Mess). Click a curve for
 
 #### Apple MacBook Air M1
 
-| Configuration | Configuration | Configuration |
-| :---: | :---: | :---: |
-| **Default**<br>[<img src="Systems/Consumer/Apple/M1/Base/MacBook-Air/processed/memory_curves.png" alt="Apple MacBook Air M1 — Default" width="280">](Systems/Consumer/Apple/M1/Base/MacBook-Air/README.md) |  |  |
+**Default**
+
+[<img src="Systems/Consumer/Apple/M1/Base/MacBook-Air/processed/memory_curves.png" alt="Apple MacBook Air M1 — Default" width="420">](Systems/Consumer/Apple/M1/Base/MacBook-Air/README.md)
 
 <a id="consumer-apple-m2-base-macbook-air"></a>
 
 #### Apple MacBook Air M2
 
-| Configuration | Configuration | Configuration |
-| :---: | :---: | :---: |
-| **Default**<br>[<img src="Systems/Consumer/Apple/M2/Base/MacBook-Air/processed/memory_curves.png" alt="Apple MacBook Air M2 — Default" width="280">](Systems/Consumer/Apple/M2/Base/MacBook-Air/README.md) |  |  |
+**Default**
+
+[<img src="Systems/Consumer/Apple/M2/Base/MacBook-Air/processed/memory_curves.png" alt="Apple MacBook Air M2 — Default" width="420">](Systems/Consumer/Apple/M2/Base/MacBook-Air/README.md)
 
 ### Intel Core
 
@@ -78,25 +78,25 @@ Results measured with [Mess](https://github.com/bsc-mem/Mess). Click a curve for
 
 #### Intel Core i5-8600K
 
-| Configuration | Configuration | Configuration |
+| 2133MTs-16GB | 2666MTs-8GB | 3200MTs-16GB |
 | :---: | :---: | :---: |
-| **2133MTs-16GB**<br>[<img src="Systems/Consumer/Intel/Core-i5-8600K/2133MTs-16GB/processed/memory_curves.png" alt="Intel Core i5-8600K — 2133MTs-16GB" width="280">](Systems/Consumer/Intel/Core-i5-8600K/2133MTs-16GB/README.md) | **2666MTs-8GB**<br>[<img src="Systems/Consumer/Intel/Core-i5-8600K/2666MTs-8GB/processed/memory_curves.png" alt="Intel Core i5-8600K — 2666MTs-8GB" width="280">](Systems/Consumer/Intel/Core-i5-8600K/2666MTs-8GB/README.md) | **3200MTs-16GB**<br>[<img src="Systems/Consumer/Intel/Core-i5-8600K/3200MTs-16GB/processed/memory_curves.png" alt="Intel Core i5-8600K — 3200MTs-16GB" width="280">](Systems/Consumer/Intel/Core-i5-8600K/3200MTs-16GB/README.md) |
+| [<img src="Systems/Consumer/Intel/Core-i5-8600K/2133MTs-16GB/processed/memory_curves.png" alt="Intel Core i5-8600K — 2133MTs-16GB" width="280">](Systems/Consumer/Intel/Core-i5-8600K/2133MTs-16GB/README.md) | [<img src="Systems/Consumer/Intel/Core-i5-8600K/2666MTs-8GB/processed/memory_curves.png" alt="Intel Core i5-8600K — 2666MTs-8GB" width="280">](Systems/Consumer/Intel/Core-i5-8600K/2666MTs-8GB/README.md) | [<img src="Systems/Consumer/Intel/Core-i5-8600K/3200MTs-16GB/processed/memory_curves.png" alt="Intel Core i5-8600K — 3200MTs-16GB" width="280">](Systems/Consumer/Intel/Core-i5-8600K/3200MTs-16GB/README.md) |
 
 <a id="consumer-intel-core-i7-1185g7"></a>
 
 #### Intel Core i7-1185G7
 
-| Configuration | Configuration | Configuration |
-| :---: | :---: | :---: |
-| **3733MTs-16GB**<br>[<img src="Systems/Consumer/Intel/Core-i7-1185G7/3733MTs-16GB/processed/memory_curves.png" alt="Intel Core i7-1185G7 — 3733MTs-16GB" width="280">](Systems/Consumer/Intel/Core-i7-1185G7/3733MTs-16GB/README.md) |  |  |
+**3733MTs-16GB**
+
+[<img src="Systems/Consumer/Intel/Core-i7-1185G7/3733MTs-16GB/processed/memory_curves.png" alt="Intel Core i7-1185G7 — 3733MTs-16GB" width="420">](Systems/Consumer/Intel/Core-i7-1185G7/3733MTs-16GB/README.md)
 
 <a id="consumer-intel-core-i7-1265u"></a>
 
 #### Intel Core i7-1265U
 
-| Configuration | Configuration | Configuration |
-| :---: | :---: | :---: |
-| **Default**<br>[<img src="Systems/Consumer/Intel/Core-i7-1265U/processed/memory_curves.png" alt="Intel Core i7-1265U — Default" width="280">](Systems/Consumer/Intel/Core-i7-1265U/README.md) |  |  |
+**Default**
+
+[<img src="Systems/Consumer/Intel/Core-i7-1265U/processed/memory_curves.png" alt="Intel Core i7-1265U — Default" width="420">](Systems/Consumer/Intel/Core-i7-1265U/README.md)
 
 ## HPC curves
 
@@ -106,92 +106,105 @@ Results measured with [Mess](https://github.com/bsc-mem/Mess). Click a curve for
 
 ### CTE-AMD — AMD EPYC 7742
 
-| Configuration | Configuration | Configuration |
-| :---: | :---: | :---: |
-| **DDR4 · 3200 MT/s**<br>[<img src="Systems/HPC/CTE-AMD/processed/memory_curves.png" alt="CTE-AMD — AMD EPYC 7742 — DDR4 · 3200 MT/s" width="280">](Systems/HPC/CTE-AMD/README.md) |  |  |
+**DDR4 · 3200 MT/s**
+
+[<img src="Systems/HPC/CTE-AMD/processed/memory_curves.png" alt="CTE-AMD — AMD EPYC 7742 — DDR4 · 3200 MT/s" width="420">](Systems/HPC/CTE-AMD/README.md)
 
 <a id="hpc-intel-clx"></a>
 
 ### Intel-CLX — Intel Xeon Gold 5218
 
-| Configuration | Configuration | Configuration |
-| :---: | :---: | :---: |
-| **DDR4 · 2933 MT/s**<br>[<img src="Systems/HPC/Intel-CLX/processed/memory_curves.png" alt="Intel-CLX — Intel Xeon Gold 5218 — DDR4 · 2933 MT/s" width="280">](Systems/HPC/Intel-CLX/README.md) |  |  |
+**DDR4 · 2933 MT/s**
+
+[<img src="Systems/HPC/Intel-CLX/processed/memory_curves.png" alt="Intel-CLX — Intel Xeon Gold 5218 — DDR4 · 2933 MT/s" width="420">](Systems/HPC/Intel-CLX/README.md)
 
 <a id="hpc-fugaku"></a>
 
 ### Fugaku — Fujitsu A64FX
 
-| Configuration | Configuration | Configuration |
-| :---: | :---: | :---: |
-| **NEON**<br>[<img src="Systems/HPC/Fugaku/neon/processed/memory_curves.png" alt="Fugaku — Fujitsu A64FX — NEON" width="280">](Systems/HPC/Fugaku/neon/README.md) | **SVE**<br>[<img src="Systems/HPC/Fugaku/sve/processed/memory_curves.png" alt="Fugaku — Fujitsu A64FX — SVE" width="280">](Systems/HPC/Fugaku/sve/README.md) |  |
+| NEON | SVE |
+| :---: | :---: |
+| [<img src="Systems/HPC/Fugaku/neon/processed/memory_curves.png" alt="Fugaku — Fujitsu A64FX — NEON" width="280">](Systems/HPC/Fugaku/neon/README.md) | [<img src="Systems/HPC/Fugaku/sve/processed/memory_curves.png" alt="Fugaku — Fujitsu A64FX — SVE" width="280">](Systems/HPC/Fugaku/sve/README.md) |
 
 <a id="hpc-nvidia-grace"></a>
 
 ### NVIDIA Grace
 
-| Configuration | Configuration | Configuration |
+| SCALAR | NEON_NATIVE | NEON_PAIR |
 | :---: | :---: | :---: |
-| **SCALAR**<br>[<img src="Systems/HPC/NVIDIA-Grace/SCALAR/processed/memory_curves.png" alt="NVIDIA Grace — SCALAR" width="280">](Systems/HPC/NVIDIA-Grace/SCALAR/README.md) | **NEON_NATIVE**<br>[<img src="Systems/HPC/NVIDIA-Grace/NEON_NATIVE/processed/memory_curves.png" alt="NVIDIA Grace — NEON_NATIVE" width="280">](Systems/HPC/NVIDIA-Grace/NEON_NATIVE/README.md) | **NEON_PAIR**<br>[<img src="Systems/HPC/NVIDIA-Grace/NEON_PAIR/processed/memory_curves.png" alt="NVIDIA Grace — NEON_PAIR" width="280">](Systems/HPC/NVIDIA-Grace/NEON_PAIR/README.md) |
-| **SVE**<br>[<img src="Systems/HPC/NVIDIA-Grace/SVE/processed/memory_curves.png" alt="NVIDIA Grace — SVE" width="280">](Systems/HPC/NVIDIA-Grace/SVE/README.md) | **SVE128**<br>[<img src="Systems/HPC/NVIDIA-Grace/SVE128/processed/memory_curves.png" alt="NVIDIA Grace — SVE128" width="280">](Systems/HPC/NVIDIA-Grace/SVE128/README.md) | **SVE_MAX**<br>[<img src="Systems/HPC/NVIDIA-Grace/SVE_MAX/processed/memory_curves.png" alt="NVIDIA Grace — SVE_MAX" width="280">](Systems/HPC/NVIDIA-Grace/SVE_MAX/README.md) |
+| [<img src="Systems/HPC/NVIDIA-Grace/SCALAR/processed/memory_curves.png" alt="NVIDIA Grace — SCALAR" width="280">](Systems/HPC/NVIDIA-Grace/SCALAR/README.md) | [<img src="Systems/HPC/NVIDIA-Grace/NEON_NATIVE/processed/memory_curves.png" alt="NVIDIA Grace — NEON_NATIVE" width="280">](Systems/HPC/NVIDIA-Grace/NEON_NATIVE/README.md) | [<img src="Systems/HPC/NVIDIA-Grace/NEON_PAIR/processed/memory_curves.png" alt="NVIDIA Grace — NEON_PAIR" width="280">](Systems/HPC/NVIDIA-Grace/NEON_PAIR/README.md) |
+
+| SVE | SVE128 | SVE_MAX |
+| :---: | :---: | :---: |
+| [<img src="Systems/HPC/NVIDIA-Grace/SVE/processed/memory_curves.png" alt="NVIDIA Grace — SVE" width="280">](Systems/HPC/NVIDIA-Grace/SVE/README.md) | [<img src="Systems/HPC/NVIDIA-Grace/SVE128/processed/memory_curves.png" alt="NVIDIA Grace — SVE128" width="280">](Systems/HPC/NVIDIA-Grace/SVE128/README.md) | [<img src="Systems/HPC/NVIDIA-Grace/SVE_MAX/processed/memory_curves.png" alt="NVIDIA Grace — SVE_MAX" width="280">](Systems/HPC/NVIDIA-Grace/SVE_MAX/README.md) |
 
 <a id="hpc-intel-emr"></a>
 
 ### Intel EMR — Xeon Platinum 8568CXL
 
-| Configuration | Configuration | Configuration |
-| :---: | :---: | :---: |
-| **DDR / prefetch off**<br>[<img src="Systems/HPC/Intel-EMR/DDR/prefetch-off/processed/memory_curves.png" alt="Intel EMR — Xeon Platinum 8568CXL — DDR / prefetch off" width="280">](Systems/HPC/Intel-EMR/DDR/prefetch-off/README.md) | **DDR / prefetch on**<br>[<img src="Systems/HPC/Intel-EMR/DDR/prefetch-on/processed/memory_curves.png" alt="Intel EMR — Xeon Platinum 8568CXL — DDR / prefetch on" width="280">](Systems/HPC/Intel-EMR/DDR/prefetch-on/README.md) |  |
+| DDR / prefetch off | DDR / prefetch on |
+| :---: | :---: |
+| [<img src="Systems/HPC/Intel-EMR/DDR/prefetch-off/processed/memory_curves.png" alt="Intel EMR — Xeon Platinum 8568CXL — DDR / prefetch off" width="280">](Systems/HPC/Intel-EMR/DDR/prefetch-off/README.md) | [<img src="Systems/HPC/Intel-EMR/DDR/prefetch-on/processed/memory_curves.png" alt="Intel EMR — Xeon Platinum 8568CXL — DDR / prefetch on" width="280">](Systems/HPC/Intel-EMR/DDR/prefetch-on/README.md) |
 
 <a id="hpc-intel-gnr"></a>
 
 ### Intel GNR — Xeon 6980P
 
-| Configuration | Configuration | Configuration |
+| MRDIMM / AVX2 | RDIMM / AVX2 | RDIMM / AVX512 |
 | :---: | :---: | :---: |
-| **MRDIMM / AVX2**<br>[<img src="Systems/HPC/Intel-GNR/MRDRIMMS/AVX2/processed/memory_curves.png" alt="Intel GNR — Xeon 6980P — MRDIMM / AVX2" width="280">](Systems/HPC/Intel-GNR/MRDRIMMS/AVX2/README.md) | **RDIMM / AVX2**<br>[<img src="Systems/HPC/Intel-GNR/RDIMMS/AVX2/processed/memory_curves.png" alt="Intel GNR — Xeon 6980P — RDIMM / AVX2" width="280">](Systems/HPC/Intel-GNR/RDIMMS/AVX2/README.md) | **RDIMM / AVX512**<br>[<img src="Systems/HPC/Intel-GNR/RDIMMS/AVX512/processed/memory_curves.png" alt="Intel GNR — Xeon 6980P — RDIMM / AVX512" width="280">](Systems/HPC/Intel-GNR/RDIMMS/AVX512/README.md) |
+| [<img src="Systems/HPC/Intel-GNR/MRDRIMMS/AVX2/processed/memory_curves.png" alt="Intel GNR — Xeon 6980P — MRDIMM / AVX2" width="280">](Systems/HPC/Intel-GNR/MRDRIMMS/AVX2/README.md) | [<img src="Systems/HPC/Intel-GNR/RDIMMS/AVX2/processed/memory_curves.png" alt="Intel GNR — Xeon 6980P — RDIMM / AVX2" width="280">](Systems/HPC/Intel-GNR/RDIMMS/AVX2/README.md) | [<img src="Systems/HPC/Intel-GNR/RDIMMS/AVX512/processed/memory_curves.png" alt="Intel GNR — Xeon 6980P — RDIMM / AVX512" width="280">](Systems/HPC/Intel-GNR/RDIMMS/AVX512/README.md) |
 
 <a id="hpc-julich"></a>
 
 ### Jülich — Intel Xeon Max 9462
 
-| Configuration | Configuration | Configuration |
-| :---: | :---: | :---: |
-| **DDR5**<br>[<img src="Systems/HPC/Jülich/Intel-Xeon-Max-9462/DDR5/processed/memory_curves.png" alt="Jülich — Intel Xeon Max 9462 — DDR5" width="280">](Systems/HPC/Jülich/Intel-Xeon-Max-9462/DDR5/README.md) | **HBM**<br>[<img src="Systems/HPC/Jülich/Intel-Xeon-Max-9462/HBM/processed/memory_curves.png" alt="Jülich — Intel Xeon Max 9462 — HBM" width="280">](Systems/HPC/Jülich/Intel-Xeon-Max-9462/HBM/README.md) |  |
+| DDR5 | HBM |
+| :---: | :---: |
+| [<img src="Systems/HPC/Jülich/Intel-Xeon-Max-9462/DDR5/processed/memory_curves.png" alt="Jülich — Intel Xeon Max 9462 — DDR5" width="280">](Systems/HPC/Jülich/Intel-Xeon-Max-9462/DDR5/README.md) | [<img src="Systems/HPC/Jülich/Intel-Xeon-Max-9462/HBM/processed/memory_curves.png" alt="Jülich — Intel Xeon Max 9462 — HBM" width="280">](Systems/HPC/Jülich/Intel-Xeon-Max-9462/HBM/README.md) |
 
 <a id="hpc-mn5-mn5-acc-cpu"></a>
 
 ### MN5 ACC — Intel Xeon Platinum 8460Y+
 
-| Configuration | Configuration | Configuration |
-| :---: | :---: | :---: |
-| **DDR5 · 4800 MT/s**<br>[<img src="Systems/HPC/MN5/MN5-ACC/CPU/processed/memory_curves.png" alt="MN5 ACC — Intel Xeon Platinum 8460Y+ — DDR5 · 4800 MT/s" width="280">](Systems/HPC/MN5/MN5-ACC/CPU/README.md) |  |  |
+**DDR5 · 4800 MT/s**
+
+[<img src="Systems/HPC/MN5/MN5-ACC/CPU/processed/memory_curves.png" alt="MN5 ACC — Intel Xeon Platinum 8460Y+ — DDR5 · 4800 MT/s" width="420">](Systems/HPC/MN5/MN5-ACC/CPU/README.md)
 
 <a id="hpc-mn5-mn5-acc-gpu"></a>
 
 ### MN5 ACC — NVIDIA H100
 
-| Configuration | Configuration | Configuration |
-| :---: | :---: | :---: |
-| **H100**<br>[<img src="Systems/HPC/MN5/MN5-ACC/GPU/processed/memory_curves.png" alt="MN5 ACC — NVIDIA H100 — H100" width="280">](Systems/HPC/MN5/MN5-ACC/GPU/README.md) |  |  |
+**H100**
+
+[<img src="Systems/HPC/MN5/MN5-ACC/GPU/processed/memory_curves.png" alt="MN5 ACC — NVIDIA H100 — H100" width="420">](Systems/HPC/MN5/MN5-ACC/GPU/README.md)
 
 <a id="hpc-mn5-mn5-gpp"></a>
 
 ### MN5 GPP — Intel Xeon Platinum 8480+
 
-| Configuration | Configuration | Configuration |
-| :---: | :---: | :---: |
-| **highmem / AVX2**<br>[<img src="Systems/HPC/MN5/MN5-GPP/highmem/AVX2/processed/memory_curves.png" alt="MN5 GPP — Intel Xeon Platinum 8480+ — highmem / AVX2" width="280">](Systems/HPC/MN5/MN5-GPP/highmem/AVX2/README.md) | **highmem / AVX512**<br>[<img src="Systems/HPC/MN5/MN5-GPP/highmem/AVX512/processed/memory_curves.png" alt="MN5 GPP — Intel Xeon Platinum 8480+ — highmem / AVX512" width="280">](Systems/HPC/MN5/MN5-GPP/highmem/AVX512/README.md) | **highmem / SCALAR**<br>[<img src="Systems/HPC/MN5/MN5-GPP/highmem/SCALAR/processed/memory_curves.png" alt="MN5 GPP — Intel Xeon Platinum 8480+ — highmem / SCALAR" width="280">](Systems/HPC/MN5/MN5-GPP/highmem/SCALAR/README.md) |
-| **highmem / SSE**<br>[<img src="Systems/HPC/MN5/MN5-GPP/highmem/SSE/processed/memory_curves.png" alt="MN5 GPP — Intel Xeon Platinum 8480+ — highmem / SSE" width="280">](Systems/HPC/MN5/MN5-GPP/highmem/SSE/README.md) | **regular / AVX2**<br>[<img src="Systems/HPC/MN5/MN5-GPP/regular/AVX2/processed/memory_curves.png" alt="MN5 GPP — Intel Xeon Platinum 8480+ — regular / AVX2" width="280">](Systems/HPC/MN5/MN5-GPP/regular/AVX2/README.md) | **regular / AVX512**<br>[<img src="Systems/HPC/MN5/MN5-GPP/regular/AVX512/processed/memory_curves.png" alt="MN5 GPP — Intel Xeon Platinum 8480+ — regular / AVX512" width="280">](Systems/HPC/MN5/MN5-GPP/regular/AVX512/README.md) |
-| **regular / SCALAR**<br>[<img src="Systems/HPC/MN5/MN5-GPP/regular/SCALAR/processed/memory_curves.png" alt="MN5 GPP — Intel Xeon Platinum 8480+ — regular / SCALAR" width="280">](Systems/HPC/MN5/MN5-GPP/regular/SCALAR/README.md) | **regular / SSE**<br>[<img src="Systems/HPC/MN5/MN5-GPP/regular/SSE/processed/memory_curves.png" alt="MN5 GPP — Intel Xeon Platinum 8480+ — regular / SSE" width="280">](Systems/HPC/MN5/MN5-GPP/regular/SSE/README.md) |  |
+| highmem / AVX2 | highmem / AVX512 |
+| :---: | :---: |
+| [<img src="Systems/HPC/MN5/MN5-GPP/highmem/AVX2/processed/memory_curves.png" alt="MN5 GPP — Intel Xeon Platinum 8480+ — highmem / AVX2" width="280">](Systems/HPC/MN5/MN5-GPP/highmem/AVX2/README.md) | [<img src="Systems/HPC/MN5/MN5-GPP/highmem/AVX512/processed/memory_curves.png" alt="MN5 GPP — Intel Xeon Platinum 8480+ — highmem / AVX512" width="280">](Systems/HPC/MN5/MN5-GPP/highmem/AVX512/README.md) |
+
+| highmem / SCALAR | highmem / SSE |
+| :---: | :---: |
+| [<img src="Systems/HPC/MN5/MN5-GPP/highmem/SCALAR/processed/memory_curves.png" alt="MN5 GPP — Intel Xeon Platinum 8480+ — highmem / SCALAR" width="280">](Systems/HPC/MN5/MN5-GPP/highmem/SCALAR/README.md) | [<img src="Systems/HPC/MN5/MN5-GPP/highmem/SSE/processed/memory_curves.png" alt="MN5 GPP — Intel Xeon Platinum 8480+ — highmem / SSE" width="280">](Systems/HPC/MN5/MN5-GPP/highmem/SSE/README.md) |
+
+| regular / AVX2 | regular / AVX512 |
+| :---: | :---: |
+| [<img src="Systems/HPC/MN5/MN5-GPP/regular/AVX2/processed/memory_curves.png" alt="MN5 GPP — Intel Xeon Platinum 8480+ — regular / AVX2" width="280">](Systems/HPC/MN5/MN5-GPP/regular/AVX2/README.md) | [<img src="Systems/HPC/MN5/MN5-GPP/regular/AVX512/processed/memory_curves.png" alt="MN5 GPP — Intel Xeon Platinum 8480+ — regular / AVX512" width="280">](Systems/HPC/MN5/MN5-GPP/regular/AVX512/README.md) |
+
+| regular / SCALAR | regular / SSE |
+| :---: | :---: |
+| [<img src="Systems/HPC/MN5/MN5-GPP/regular/SCALAR/processed/memory_curves.png" alt="MN5 GPP — Intel Xeon Platinum 8480+ — regular / SCALAR" width="280">](Systems/HPC/MN5/MN5-GPP/regular/SCALAR/README.md) | [<img src="Systems/HPC/MN5/MN5-GPP/regular/SSE/processed/memory_curves.png" alt="MN5 GPP — Intel Xeon Platinum 8480+ — regular / SSE" width="280">](Systems/HPC/MN5/MN5-GPP/regular/SSE/README.md) |
 
 <a id="hpc-mn5-mn5-hbm"></a>
 
 ### MN5 HBM — Intel Xeon Max 9480
 
-| Configuration | Configuration | Configuration |
+| DDR5 | SNC / DDR5 | HBM |
 | :---: | :---: | :---: |
-| **DDR5**<br>[<img src="Systems/HPC/MN5/MN5-HBM/DDR5/processed/memory_curves.png" alt="MN5 HBM — Intel Xeon Max 9480 — DDR5" width="280">](Systems/HPC/MN5/MN5-HBM/DDR5/README.md) | **SNC / DDR5**<br>[<img src="Systems/HPC/MN5/MN5-HBM/SNC/DDR5/processed/memory_curves.png" alt="MN5 HBM — Intel Xeon Max 9480 — SNC / DDR5" width="280">](Systems/HPC/MN5/MN5-HBM/SNC/DDR5/README.md) | **HBM**<br>[<img src="Systems/HPC/MN5/MN5-HBM/HBM/processed/memory_curves.png" alt="MN5 HBM — Intel Xeon Max 9480 — HBM" width="280">](Systems/HPC/MN5/MN5-HBM/HBM/README.md) |
+| [<img src="Systems/HPC/MN5/MN5-HBM/DDR5/processed/memory_curves.png" alt="MN5 HBM — Intel Xeon Max 9480 — DDR5" width="280">](Systems/HPC/MN5/MN5-HBM/DDR5/README.md) | [<img src="Systems/HPC/MN5/MN5-HBM/SNC/DDR5/processed/memory_curves.png" alt="MN5 HBM — Intel Xeon Max 9480 — SNC / DDR5" width="280">](Systems/HPC/MN5/MN5-HBM/SNC/DDR5/README.md) | [<img src="Systems/HPC/MN5/MN5-HBM/HBM/processed/memory_curves.png" alt="MN5 HBM — Intel Xeon Max 9480 — HBM" width="280">](Systems/HPC/MN5/MN5-HBM/HBM/README.md) |
 
 ## Using the results
 

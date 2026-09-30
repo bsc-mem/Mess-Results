@@ -25,7 +25,10 @@ Archived CPU frequencies come from the machine description.
 
 ## Curves
 
-| Configuration | Configuration | Configuration |
+| NEON_NATIVE | NEON_PAIR | SCALAR |
 | :---: | :---: | :---: |
-| **NEON_NATIVE**<br>[<img src="NEON_NATIVE/processed/memory_curves.png" alt="NVIDIA Grace — NEON_NATIVE" width="280">](NEON_NATIVE/README.md) | **NEON_PAIR**<br>[<img src="NEON_PAIR/processed/memory_curves.png" alt="NVIDIA Grace — NEON_PAIR" width="280">](NEON_PAIR/README.md) | **SCALAR**<br>[<img src="SCALAR/processed/memory_curves.png" alt="NVIDIA Grace — SCALAR" width="280">](SCALAR/README.md) |
-| **SVE**<br>[<img src="SVE/processed/memory_curves.png" alt="NVIDIA Grace — SVE" width="280">](SVE/README.md) | **SVE128**<br>[<img src="SVE128/processed/memory_curves.png" alt="NVIDIA Grace — SVE128" width="280">](SVE128/README.md) | **SVE_MAX**<br>[<img src="SVE_MAX/processed/memory_curves.png" alt="NVIDIA Grace — SVE_MAX" width="280">](SVE_MAX/README.md) |
+| [<img src="NEON_NATIVE/processed/memory_curves.png" alt="NVIDIA Grace — NEON_NATIVE" width="280">](NEON_NATIVE/README.md) | [<img src="NEON_PAIR/processed/memory_curves.png" alt="NVIDIA Grace — NEON_PAIR" width="280">](NEON_PAIR/README.md) | [<img src="SCALAR/processed/memory_curves.png" alt="NVIDIA Grace — SCALAR" width="280">](SCALAR/README.md) |
+
+| SVE | SVE128 | SVE_MAX |
+| :---: | :---: | :---: |
+| [<img src="SVE/processed/memory_curves.png" alt="NVIDIA Grace — SVE" width="280">](SVE/README.md) | [<img src="SVE128/processed/memory_curves.png" alt="NVIDIA Grace — SVE128" width="280">](SVE128/README.md) | [<img src="SVE_MAX/processed/memory_curves.png" alt="NVIDIA Grace — SVE_MAX" width="280">](SVE_MAX/README.md) |

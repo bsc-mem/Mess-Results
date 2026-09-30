@@ -21,6 +21,6 @@ Archived CPU frequencies come from the machine description.
 
 ## Curves
 
-| Configuration | Configuration | Configuration |
+| 2133MTs-16GB | 2666MTs-8GB | 3200MTs-16GB |
 | :---: | :---: | :---: |
-| **2133MTs-16GB**<br>[<img src="2133MTs-16GB/processed/memory_curves.png" alt="Intel Core i5-8600K — 2133MTs-16GB" width="280">](2133MTs-16GB/README.md) | **2666MTs-8GB**<br>[<img src="2666MTs-8GB/processed/memory_curves.png" alt="Intel Core i5-8600K — 2666MTs-8GB" width="280">](2666MTs-8GB/README.md) | **3200MTs-16GB**<br>[<img src="3200MTs-16GB/processed/memory_curves.png" alt="Intel Core i5-8600K — 3200MTs-16GB" width="280">](3200MTs-16GB/README.md) |
+| [<img src="2133MTs-16GB/processed/memory_curves.png" alt="Intel Core i5-8600K — 2133MTs-16GB" width="280">](2133MTs-16GB/README.md) | [<img src="2666MTs-8GB/processed/memory_curves.png" alt="Intel Core i5-8600K — 2666MTs-8GB" width="280">](2666MTs-8GB/README.md) | [<img src="3200MTs-16GB/processed/memory_curves.png" alt="Intel Core i5-8600K — 3200MTs-16GB" width="280">](3200MTs-16GB/README.md) |

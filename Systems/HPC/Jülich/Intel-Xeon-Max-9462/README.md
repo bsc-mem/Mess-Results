@@ -9,6 +9,6 @@ Processor: **Jülich — Intel Xeon Max 9462**. Machine specs are documented in 
 
 ## Curves
 
-| Configuration | Configuration | Configuration |
-| :---: | :---: | :---: |
-| **DDR5**<br>[<img src="DDR5/processed/memory_curves.png" alt="Jülich — Intel Xeon Max 9462 — DDR5" width="280">](DDR5/README.md) | **HBM**<br>[<img src="HBM/processed/memory_curves.png" alt="Jülich — Intel Xeon Max 9462 — HBM" width="280">](HBM/README.md) |  |
+| DDR5 | HBM |
+| :---: | :---: |
+| [<img src="DDR5/processed/memory_curves.png" alt="Jülich — Intel Xeon Max 9462 — DDR5" width="280">](DDR5/README.md) | [<img src="HBM/processed/memory_curves.png" alt="Jülich — Intel Xeon Max 9462 — HBM" width="280">](HBM/README.md) |

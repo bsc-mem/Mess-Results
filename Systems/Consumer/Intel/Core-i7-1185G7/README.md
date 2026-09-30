@@ -19,6 +19,6 @@ Archived CPU frequencies come from the machine description.
 
 ## Curves
 
-| Configuration | Configuration | Configuration |
-| :---: | :---: | :---: |
-| **3733MTs-16GB**<br>[<img src="3733MTs-16GB/processed/memory_curves.png" alt="Intel Core i7-1185G7 — 3733MTs-16GB" width="280">](3733MTs-16GB/README.md) |  |  |
+**3733MTs-16GB**
+
+[<img src="3733MTs-16GB/processed/memory_curves.png" alt="Intel Core i7-1185G7 — 3733MTs-16GB" width="420">](3733MTs-16GB/README.md)

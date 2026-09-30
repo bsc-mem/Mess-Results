@@ -22,6 +22,6 @@ Archived CPU frequencies come from the machine description.
 
 ## Curves
 
-| Configuration | Configuration | Configuration |
-| :---: | :---: | :---: |
-| **NEON**<br>[<img src="neon/processed/memory_curves.png" alt="Fugaku — Fujitsu A64FX — NEON" width="280">](neon/README.md) | **SVE**<br>[<img src="sve/processed/memory_curves.png" alt="Fugaku — Fujitsu A64FX — SVE" width="280">](sve/README.md) |  |
+| NEON | SVE |
+| :---: | :---: |
+| [<img src="neon/processed/memory_curves.png" alt="Fugaku — Fujitsu A64FX — NEON" width="280">](neon/README.md) | [<img src="sve/processed/memory_curves.png" alt="Fugaku — Fujitsu A64FX — SVE" width="280">](sve/README.md) |

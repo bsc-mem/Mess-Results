@@ -8,8 +8,8 @@ Processor: **Apple MacBook Air M1**. Machine specs are documented in the configu
 
 ## Curves
 
-| Configuration | Configuration | Configuration |
-| :---: | :---: | :---: |
-| **Default**<br>[<img src="MacBook-Air/processed/memory_curves.png" alt="Apple MacBook Air M1 — Default" width="280">](MacBook-Air/README.md) |  |  |
+**Default**
+
+[<img src="MacBook-Air/processed/memory_curves.png" alt="Apple MacBook Air M1 — Default" width="420">](MacBook-Air/README.md)
 
 Contributions welcome: add Mess curves with the Mac model, chip, RAM capacity, OS, and run configuration.
