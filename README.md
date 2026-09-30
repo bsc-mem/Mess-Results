@@ -1,120 +1,212 @@
-
 <div align="center">
-    <img src="doc/logo.png" alt="Mess Benchmark Logo" width="200">
-    <h1>Mess Benchmark Results Repository</h1>
-    <p>
-        <b>Memory System Bandwidth-Latency Curves for Modern Architectures</b><br>
-        <a href="https://github.com/bsc-mem/Mess-2.0">Mess Benchmark 2.0</a> &mdash; A multiplatform benchmark for holistic, close-to-hardware memory system characterization.
-    </p>
+<img src="doc/logo.png" alt="Mess logo" width="140">
+<h1>Mess Results</h1>
+<p>Measured memory bandwidth–latency curves for consumer and HPC systems.</p>
+<p><a href="#consumer-curves">Consumer curves</a> · <a href="#hpc-curves">HPC curves</a> · <a href="#system-index">System index</a> · <a href="#using-the-results">Using the results</a></p>
 </div>
 
----
+| Configurations | Systems | Consumer | HPC |
+| :---: | :---: | :---: | :---: |
+| **38** | **17** | 8 configurations | 30 configurations |
 
-## About This Repository
+Results measured with [Mess](https://github.com/bsc-mem/Mess). Click a curve for recorded machine specs and PDF, CSV, and JSON downloads.
 
-This repository collects and organizes the results of running <b>Mess Benchmark</b> on a variety of systems. Each system folder contains bandwidth-latency curves and processed data, generated using the official Mess workflow.
+## System index
 
-Mess Benchmark is a multiplatform benchmark designed to provide a holistic, detailed, and close-to-hardware view of memory system performance through bandwidth-latency curves. It is the successor to the original [Mess Benchmark](https://github.com/bsc-mem/Mess-Benchmark) (now deprecated), with improved usability and portability.
+### Consumer
 
-**Reference:** [Mess Benchmark 2.0 on GitHub](https://github.com/bsc-mem/Mess-2.0)
+| System | Available configurations |
+| --- | --- |
+| [AMD Ryzen 7 5700X3D](#consumer-amd-ryzen-7-5700x3d) | Default |
+| [Apple MacBook Air M1](#consumer-apple-m1-base-macbook-air) | M1 · MacBook Air |
+| [Apple MacBook Air M2](#consumer-apple-m2-base-macbook-air) | M2 · MacBook Air |
+| [Intel Core i5-8600K](#consumer-intel-core-i5-8600k) | 2133 MT/s · 16 GB; 2666 MT/s · 8 GB; 3200 MT/s · 16 GB |
+| [Intel Core i7-1185G7](#consumer-intel-core-i7-1185g7) | 3733 MT/s · 16 GB |
+| [Intel Core i7-1265U](#consumer-intel-core-i7-1265u) | Default |
 
-> <b>MICRO 2024 Best Paper Runner-Up:</b> The Mess methodology was published at the 57th IEEE/ACM International Symposium on Microarchitecture.
+### HPC
 
----
+| System | Processor | Available configurations |
+| --- | --- | --- |
+| [CTE-AMD](#hpc-cte-amd) | AMD EPYC 7742 | DDR4 |
+| [Intel-CLX](#hpc-intel-clx) | Intel Xeon Gold 5218 | DDR4 |
+| [Fugaku](#hpc-fugaku) | Fujitsu A64FX | NEON · SVE |
+| [NVIDIA Grace](#hpc-nvidia-grace) | NVIDIA Grace | Scalar · NEON Native / Pair · SVE / SVE128 / SVE Max |
+| [Intel-EMR](#hpc-intel-emr) | Xeon Platinum 8568CXL | DDR5 · Prefetch on / off |
+| [Intel-GNR](#hpc-intel-gnr) | Xeon 6980P | RDIMM · AVX2 / AVX512; MRDIMM · AVX2 |
+| [Jülich](#hpc-julich) | Intel Xeon Max 9462 | DDR5 · HBM |
+| [MN5 ACC](#hpc-mn5-mn5-acc-cpu) | Intel Xeon Platinum 8460Y+ | DDR5 |
+| [MN5 ACC](#hpc-mn5-mn5-acc-gpu) | NVIDIA H100 | H100 |
+| [MN5 GPP](#hpc-mn5-mn5-gpp) | Intel Xeon Platinum 8480+ | Regular / highmem · AVX2, AVX512, Scalar, SSE |
+| [MN5 HBM](#hpc-mn5-mn5-hbm) | Intel Xeon Max 9480 | HBM · DDR5 · SNC DDR5 |
 
-## Table of Contents
+## Consumer curves
 
-- [Documentation](#documentation)
-- [Motivation](#motivation)
-- [Folder Structure](#folder-structure)
-- [How to Contribute Results](#how-to-contribute-results)
-- [Tools & Workflow](#tools--workflow)
-- [Architecture Support](#architecture-support)
-- [Citation](#citation)
-- [References](#references)
+[Browse folders](Systems/Consumer/README.md) · [System index](#system-index)
 
----
+### AMD Ryzen
 
-## Documentation
+<a id="consumer-amd-ryzen-7-5700x3d"></a>
 
-Full documentation for Mess Benchmark is available in the [GitHub Wiki](https://github.com/bsc-mem/Mess-2.0/wiki).
+#### AMD Ryzen 7 5700X3D
 
----
+| Configuration | Configuration | Configuration |
+| :---: | :---: | :---: |
+| **3200 MT/s**<br>[<img src="Systems/Consumer/AMD/Ryzen-7-5700X3D/processed/memory_curves.png" alt="AMD Ryzen 7 5700X3D — 3200 MT/s" width="280">](Systems/Consumer/AMD/Ryzen-7-5700X3D/README.md) |  |  |
 
-## Motivation
+### Apple Silicon
 
-Traditional memory benchmarks report isolated metrics such as peak bandwidth or idle latency, which often fail to capture how memory systems behave under realistic workloads. Mess addresses this limitation by characterizing memory performance through bandwidth-latency curves that cover the full range of memory traffic intensity, from unloaded to fully saturated.
+<a id="consumer-apple-m1-base-macbook-air"></a>
 
-This approach reveals critical insights:
+#### Apple MacBook Air M1
 
-- Memory writes degrade performance significantly compared to reads
-- Systems typically saturate at 70-90% of theoretical maximum bandwidth
-- Latency ranges from 85-130ns when idle to 200-600ns+ under saturation
+| Configuration | Configuration | Configuration |
+| :---: | :---: | :---: |
+| **Default**<br>[<img src="Systems/Consumer/Apple/M1/Base/MacBook-Air/processed/memory_curves.png" alt="Apple MacBook Air M1 — Default" width="280">](Systems/Consumer/Apple/M1/Base/MacBook-Air/README.md) |  |  |
 
-Mess provides a holistic, close-to-hardware view of memory system behavior, enabling researchers and engineers to understand real-world performance characteristics that standard benchmarks miss.
+<a id="consumer-apple-m2-base-macbook-air"></a>
 
----
+#### Apple MacBook Air M2
 
-## Folder Structure
+| Configuration | Configuration | Configuration |
+| :---: | :---: | :---: |
+| **Default**<br>[<img src="Systems/Consumer/Apple/M2/Base/MacBook-Air/processed/memory_curves.png" alt="Apple MacBook Air M2 — Default" width="280">](Systems/Consumer/Apple/M2/Base/MacBook-Air/README.md) |  |  |
 
-Each system's results are organized as follows:
+### Intel Core
 
-```
-SystemFolder
-├── local
-│   ├── bw/
-│   ├── lat/
-│   ├── processed/
-│   └── plotter.txt
-└── remote
-        ├── bw/
-        ├── lat/
-        ├── processed/
-        └── plotter.txt
-```
+<a id="consumer-intel-core-i5-8600k"></a>
 
-**See [Systems/MN5/MN5-GPP](Systems/MN5/MN5-GPP) for a detailed example.**
+#### Intel Core i5-8600K
 
----
+| Configuration | Configuration | Configuration |
+| :---: | :---: | :---: |
+| **2133MTs-16GB**<br>[<img src="Systems/Consumer/Intel/Core-i5-8600K/2133MTs-16GB/processed/memory_curves.png" alt="Intel Core i5-8600K — 2133MTs-16GB" width="280">](Systems/Consumer/Intel/Core-i5-8600K/2133MTs-16GB/README.md) | **2666MTs-8GB**<br>[<img src="Systems/Consumer/Intel/Core-i5-8600K/2666MTs-8GB/processed/memory_curves.png" alt="Intel Core i5-8600K — 2666MTs-8GB" width="280">](Systems/Consumer/Intel/Core-i5-8600K/2666MTs-8GB/README.md) | **3200MTs-16GB**<br>[<img src="Systems/Consumer/Intel/Core-i5-8600K/3200MTs-16GB/processed/memory_curves.png" alt="Intel Core i5-8600K — 3200MTs-16GB" width="280">](Systems/Consumer/Intel/Core-i5-8600K/3200MTs-16GB/README.md) |
 
-## How to Contribute Results
+<a id="consumer-intel-core-i7-1185g7"></a>
 
-1. Run Mess Benchmark 2.0 on your system. See [Mess 2.0 Quick Start](https://github.com/bsc-mem/Mess-2.0#quick-start).
-2. Use the official plotter (`utils/plotter.py`) to generate processed results (CSV, JSON, PNG, PDF).
-3. Place your results in the appropriate folder structure as shown above.
-4. Submit a pull request or contact the maintainers.
+#### Intel Core i7-1185G7
 
----
+| Configuration | Configuration | Configuration |
+| :---: | :---: | :---: |
+| **3733MTs-16GB**<br>[<img src="Systems/Consumer/Intel/Core-i7-1185G7/3733MTs-16GB/processed/memory_curves.png" alt="Intel Core i7-1185G7 — 3733MTs-16GB" width="280">](Systems/Consumer/Intel/Core-i7-1185G7/3733MTs-16GB/README.md) |  |  |
+
+<a id="consumer-intel-core-i7-1265u"></a>
+
+#### Intel Core i7-1265U
+
+| Configuration | Configuration | Configuration |
+| :---: | :---: | :---: |
+| **Default**<br>[<img src="Systems/Consumer/Intel/Core-i7-1265U/processed/memory_curves.png" alt="Intel Core i7-1265U — Default" width="280">](Systems/Consumer/Intel/Core-i7-1265U/README.md) |  |  |
+
+## HPC curves
+
+[Browse folders](Systems/HPC/README.md) · [System index](#system-index)
+
+<a id="hpc-cte-amd"></a>
+
+### CTE-AMD — AMD EPYC 7742
+
+| Configuration | Configuration | Configuration |
+| :---: | :---: | :---: |
+| **DDR4 · 3200 MT/s**<br>[<img src="Systems/HPC/CTE-AMD/processed/memory_curves.png" alt="CTE-AMD — AMD EPYC 7742 — DDR4 · 3200 MT/s" width="280">](Systems/HPC/CTE-AMD/README.md) |  |  |
+
+<a id="hpc-intel-clx"></a>
+
+### Intel-CLX — Intel Xeon Gold 5218
+
+| Configuration | Configuration | Configuration |
+| :---: | :---: | :---: |
+| **DDR4 · 2933 MT/s**<br>[<img src="Systems/HPC/Intel-CLX/processed/memory_curves.png" alt="Intel-CLX — Intel Xeon Gold 5218 — DDR4 · 2933 MT/s" width="280">](Systems/HPC/Intel-CLX/README.md) |  |  |
+
+<a id="hpc-fugaku"></a>
+
+### Fugaku — Fujitsu A64FX
+
+| Configuration | Configuration | Configuration |
+| :---: | :---: | :---: |
+| **NEON**<br>[<img src="Systems/HPC/Fugaku/neon/processed/memory_curves.png" alt="Fugaku — Fujitsu A64FX — NEON" width="280">](Systems/HPC/Fugaku/neon/README.md) | **SVE**<br>[<img src="Systems/HPC/Fugaku/sve/processed/memory_curves.png" alt="Fugaku — Fujitsu A64FX — SVE" width="280">](Systems/HPC/Fugaku/sve/README.md) |  |
+
+<a id="hpc-nvidia-grace"></a>
+
+### NVIDIA Grace
+
+| Configuration | Configuration | Configuration |
+| :---: | :---: | :---: |
+| **SCALAR**<br>[<img src="Systems/HPC/NVIDIA-Grace/SCALAR/processed/memory_curves.png" alt="NVIDIA Grace — SCALAR" width="280">](Systems/HPC/NVIDIA-Grace/SCALAR/README.md) | **NEON_NATIVE**<br>[<img src="Systems/HPC/NVIDIA-Grace/NEON_NATIVE/processed/memory_curves.png" alt="NVIDIA Grace — NEON_NATIVE" width="280">](Systems/HPC/NVIDIA-Grace/NEON_NATIVE/README.md) | **NEON_PAIR**<br>[<img src="Systems/HPC/NVIDIA-Grace/NEON_PAIR/processed/memory_curves.png" alt="NVIDIA Grace — NEON_PAIR" width="280">](Systems/HPC/NVIDIA-Grace/NEON_PAIR/README.md) |
+| **SVE**<br>[<img src="Systems/HPC/NVIDIA-Grace/SVE/processed/memory_curves.png" alt="NVIDIA Grace — SVE" width="280">](Systems/HPC/NVIDIA-Grace/SVE/README.md) | **SVE128**<br>[<img src="Systems/HPC/NVIDIA-Grace/SVE128/processed/memory_curves.png" alt="NVIDIA Grace — SVE128" width="280">](Systems/HPC/NVIDIA-Grace/SVE128/README.md) | **SVE_MAX**<br>[<img src="Systems/HPC/NVIDIA-Grace/SVE_MAX/processed/memory_curves.png" alt="NVIDIA Grace — SVE_MAX" width="280">](Systems/HPC/NVIDIA-Grace/SVE_MAX/README.md) |
+
+<a id="hpc-intel-emr"></a>
+
+### Intel EMR — Xeon Platinum 8568CXL
+
+| Configuration | Configuration | Configuration |
+| :---: | :---: | :---: |
+| **DDR / prefetch off**<br>[<img src="Systems/HPC/Intel-EMR/DDR/prefetch-off/processed/memory_curves.png" alt="Intel EMR — Xeon Platinum 8568CXL — DDR / prefetch off" width="280">](Systems/HPC/Intel-EMR/DDR/prefetch-off/README.md) | **DDR / prefetch on**<br>[<img src="Systems/HPC/Intel-EMR/DDR/prefetch-on/processed/memory_curves.png" alt="Intel EMR — Xeon Platinum 8568CXL — DDR / prefetch on" width="280">](Systems/HPC/Intel-EMR/DDR/prefetch-on/README.md) |  |
+
+<a id="hpc-intel-gnr"></a>
+
+### Intel GNR — Xeon 6980P
+
+| Configuration | Configuration | Configuration |
+| :---: | :---: | :---: |
+| **MRDIMM / AVX2**<br>[<img src="Systems/HPC/Intel-GNR/MRDRIMMS/AVX2/processed/memory_curves.png" alt="Intel GNR — Xeon 6980P — MRDIMM / AVX2" width="280">](Systems/HPC/Intel-GNR/MRDRIMMS/AVX2/README.md) | **RDIMM / AVX2**<br>[<img src="Systems/HPC/Intel-GNR/RDIMMS/AVX2/processed/memory_curves.png" alt="Intel GNR — Xeon 6980P — RDIMM / AVX2" width="280">](Systems/HPC/Intel-GNR/RDIMMS/AVX2/README.md) | **RDIMM / AVX512**<br>[<img src="Systems/HPC/Intel-GNR/RDIMMS/AVX512/processed/memory_curves.png" alt="Intel GNR — Xeon 6980P — RDIMM / AVX512" width="280">](Systems/HPC/Intel-GNR/RDIMMS/AVX512/README.md) |
+
+<a id="hpc-julich"></a>
+
+### Jülich — Intel Xeon Max 9462
+
+| Configuration | Configuration | Configuration |
+| :---: | :---: | :---: |
+| **DDR5**<br>[<img src="Systems/HPC/Jülich/Intel-Xeon-Max-9462/DDR5/processed/memory_curves.png" alt="Jülich — Intel Xeon Max 9462 — DDR5" width="280">](Systems/HPC/Jülich/Intel-Xeon-Max-9462/DDR5/README.md) | **HBM**<br>[<img src="Systems/HPC/Jülich/Intel-Xeon-Max-9462/HBM/processed/memory_curves.png" alt="Jülich — Intel Xeon Max 9462 — HBM" width="280">](Systems/HPC/Jülich/Intel-Xeon-Max-9462/HBM/README.md) |  |
+
+<a id="hpc-mn5-mn5-acc-cpu"></a>
+
+### MN5 ACC — Intel Xeon Platinum 8460Y+
+
+| Configuration | Configuration | Configuration |
+| :---: | :---: | :---: |
+| **DDR5 · 4800 MT/s**<br>[<img src="Systems/HPC/MN5/MN5-ACC/CPU/processed/memory_curves.png" alt="MN5 ACC — Intel Xeon Platinum 8460Y+ — DDR5 · 4800 MT/s" width="280">](Systems/HPC/MN5/MN5-ACC/CPU/README.md) |  |  |
+
+<a id="hpc-mn5-mn5-acc-gpu"></a>
+
+### MN5 ACC — NVIDIA H100
+
+| Configuration | Configuration | Configuration |
+| :---: | :---: | :---: |
+| **H100**<br>[<img src="Systems/HPC/MN5/MN5-ACC/GPU/processed/memory_curves.png" alt="MN5 ACC — NVIDIA H100 — H100" width="280">](Systems/HPC/MN5/MN5-ACC/GPU/README.md) |  |  |
+
+<a id="hpc-mn5-mn5-gpp"></a>
+
+### MN5 GPP — Intel Xeon Platinum 8480+
+
+| Configuration | Configuration | Configuration |
+| :---: | :---: | :---: |
+| **highmem / AVX2**<br>[<img src="Systems/HPC/MN5/MN5-GPP/highmem/AVX2/processed/memory_curves.png" alt="MN5 GPP — Intel Xeon Platinum 8480+ — highmem / AVX2" width="280">](Systems/HPC/MN5/MN5-GPP/highmem/AVX2/README.md) | **highmem / AVX512**<br>[<img src="Systems/HPC/MN5/MN5-GPP/highmem/AVX512/processed/memory_curves.png" alt="MN5 GPP — Intel Xeon Platinum 8480+ — highmem / AVX512" width="280">](Systems/HPC/MN5/MN5-GPP/highmem/AVX512/README.md) | **highmem / SCALAR**<br>[<img src="Systems/HPC/MN5/MN5-GPP/highmem/SCALAR/processed/memory_curves.png" alt="MN5 GPP — Intel Xeon Platinum 8480+ — highmem / SCALAR" width="280">](Systems/HPC/MN5/MN5-GPP/highmem/SCALAR/README.md) |
+| **highmem / SSE**<br>[<img src="Systems/HPC/MN5/MN5-GPP/highmem/SSE/processed/memory_curves.png" alt="MN5 GPP — Intel Xeon Platinum 8480+ — highmem / SSE" width="280">](Systems/HPC/MN5/MN5-GPP/highmem/SSE/README.md) | **regular / AVX2**<br>[<img src="Systems/HPC/MN5/MN5-GPP/regular/AVX2/processed/memory_curves.png" alt="MN5 GPP — Intel Xeon Platinum 8480+ — regular / AVX2" width="280">](Systems/HPC/MN5/MN5-GPP/regular/AVX2/README.md) | **regular / AVX512**<br>[<img src="Systems/HPC/MN5/MN5-GPP/regular/AVX512/processed/memory_curves.png" alt="MN5 GPP — Intel Xeon Platinum 8480+ — regular / AVX512" width="280">](Systems/HPC/MN5/MN5-GPP/regular/AVX512/README.md) |
+| **regular / SCALAR**<br>[<img src="Systems/HPC/MN5/MN5-GPP/regular/SCALAR/processed/memory_curves.png" alt="MN5 GPP — Intel Xeon Platinum 8480+ — regular / SCALAR" width="280">](Systems/HPC/MN5/MN5-GPP/regular/SCALAR/README.md) | **regular / SSE**<br>[<img src="Systems/HPC/MN5/MN5-GPP/regular/SSE/processed/memory_curves.png" alt="MN5 GPP — Intel Xeon Platinum 8480+ — regular / SSE" width="280">](Systems/HPC/MN5/MN5-GPP/regular/SSE/README.md) |  |
+
+<a id="hpc-mn5-mn5-hbm"></a>
+
+### MN5 HBM — Intel Xeon Max 9480
+
+| Configuration | Configuration | Configuration |
+| :---: | :---: | :---: |
+| **DDR5**<br>[<img src="Systems/HPC/MN5/MN5-HBM/DDR5/processed/memory_curves.png" alt="MN5 HBM — Intel Xeon Max 9480 — DDR5" width="280">](Systems/HPC/MN5/MN5-HBM/DDR5/README.md) | **SNC / DDR5**<br>[<img src="Systems/HPC/MN5/MN5-HBM/SNC/DDR5/processed/memory_curves.png" alt="MN5 HBM — Intel Xeon Max 9480 — SNC / DDR5" width="280">](Systems/HPC/MN5/MN5-HBM/SNC/DDR5/README.md) | **HBM**<br>[<img src="Systems/HPC/MN5/MN5-HBM/HBM/processed/memory_curves.png" alt="MN5 HBM — Intel Xeon Max 9480 — HBM" width="280">](Systems/HPC/MN5/MN5-HBM/HBM/README.md) |
+
+## Using the results
+
+- **CSV / JSON:** processed curve data for analysis and simulation.
+- **PDF / PNG:** plots for viewing and reuse.
+- **Units:** bandwidth in GB/s and latency in ns. Run READMEs document the machine and recorded configuration.
+
+This collection contains multisequential results. Raw measurement logs are omitted to keep downloads compact.
+
+## Contribute
+
+Add a system or chip variant with [Mess](https://github.com/bsc-mem/Mess) results in CSV, JSON, PDF, and PNG. Include the machine model, chip, RAM capacity, OS, and run configuration in a short README.
 
 ## Citation
 
-If you use Mess in research, please cite:
+Please cite [A Mess of Memory System Benchmarking, Simulation and Application Profiling (MICRO 2024)](https://ieeexplore.ieee.org/document/10764561).
 
-@inproceedings{esmaili2024mess,
-    title     = {A Mess of Memory System Benchmarking, Simulation and Application Profiling},
-    author    = {Esmaili-Dokht, Pouya and Sgherzi, Francesco and Girelli, Valeria Soldera
-                             and Boixaderas, Isaac and Carmin, Mariana and Monemi, Alireza
-                             and Armejach, Adria and Mercadal, Estanislao and Llort, German
-                             and Radojkovi{\'c}, Petar and Moreto, Miquel and Gim{\'e}nez, Judit
-                             and Martorell, Xavier and Ayguad{\'e}, Eduard and Labarta, Jesus
-                             and Confalonieri, Emanuele and Dubey, Rishabh and Adlard, Joshua},
-    booktitle = {Proceedings of the 57th IEEE/ACM International Symposium on Microarchitecture (MICRO)},
-    pages     = {136--152},
-    year      = {2024},
-    publisher = {IEEE}
-}
-
----
-
-## References
-
-- [Mess Benchmark 2.0 (GitHub)](https://github.com/bsc-mem/Mess-2.0)
-- [Mess Simulator](https://github.com/bsc-mem/Mess-Simulator)
-- [Mess-Paraver](https://github.com/bsc-mem/Mess-Paraver)
-- [Mess Paper (MICRO 2024)](https://ieeexplore.ieee.org/document/10345678)
-
----
-
-<div align="center">
-    <sub>Mess Framework is developed by the Memory Systems Team at the Barcelona Supercomputing Center (BSC).</sub>
-</div>
+[Mess](https://github.com/bsc-mem/Mess) · [Mess Simulator](https://github.com/bsc-mem/Mess-simulator) · [Mess-Paraver](https://github.com/bsc-mem/Mess-Paraver)
